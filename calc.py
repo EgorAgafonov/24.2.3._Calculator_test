@@ -4,26 +4,22 @@ class Calculator:
     def multiply(self, x: int, y: int) -> int:
         """Метод multiply выполняет умножение аргумента 'x' на аргумент 'y', а также возвращает результат
         произведения в формате int."""
-
         return x * y
 
 
     def division(self, x: int, y: int) -> float:
         """Метод division выполняет деление аргумента 'x' на аргумент 'y',
         а также возвращает результат частного в формате float."""
-
         return x / y
 
 
     def subtraction(self, x: int, y: int) -> int:
         """Метод subtraction выполняет вычитание из аргумента 'x' аргумента 'y',
         а также возвращает результат разности чисел в формате int."""
-
         return x - y
 
 
     def adding(self, x: int, y: int) -> int:
         """Метод adding выполняет сложение аргумента 'x' с аргументом 'y',
         а также возвращает результат суммы чисел в формате int."""
-
         return x + y
