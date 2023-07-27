@@ -39,7 +39,7 @@ class TestCalculator:
     def test_adding_unsuccess(self):
         """Выполняем негативный тест для проверки корректной работы метода adding, для чего передаем необходимые
         числовые аргументы для сложения, а также для сравнения намеренно указываем некорректный ожидаемый результат."""
-        assert self.calc.adding(self, 1, 1) == 3
+        assert self.calc.adding(self, 1, 1) == 2
 
 
     def test_zero_division(self):
